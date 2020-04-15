@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import TodoInput from "./TodoInput";
 import TodoList from "./TodoList";
 import { Grid, Row, Col } from "react-bootstrap";
-import uuid from "uuid";
+import uuid from "uuid"; //for unique id's
 
 export default class Compound extends Component {
   state = {
